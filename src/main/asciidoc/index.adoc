@@ -1,0 +1,101 @@
+= Education Software Docs
+Ahmed Shakir;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Spring REST.
+
+`CourseControllerTest` makes a call to a very simple service and produces
+documentation snippets.
+
+GET COURSES
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/courses-get-all/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/courses-get-all/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/courses-get-all/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/courses-get-all/response-body.adoc[]
+
+GET COURSE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/courses-get-one/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/courses-get-one/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/courses-get-one/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/courses-get-one/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/v1/courses-get-one/response-fields.adoc[]
+
+SAVE COURSE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/courses-new/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/courses-new/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/courses-new/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/courses-new/response-body.adoc[]
+
+Request Fields
+include::{snippets}/v1/courses-new/request-fields.adoc[]
+
+Response Fields:
+include::{snippets}/v1/courses-new/response-fields.adoc[]
+
+UPDATE COURSE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/courses-update/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/courses-update/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/courses-update/http-response.adoc[]
+
+Request Fields
+include::{snippets}/v1/courses-update/request-fields.adoc[]
+
+DELETE COURSE
+
+One showing how to make a request using cURL:
+
+include::{snippets}/v1/courses-delete/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/courses-delete/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/courses-delete/http-response.adoc[]
